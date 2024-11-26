@@ -1,11 +1,10 @@
-import { StyleSheet, StatusBar } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { Text, View } from 'react-native';
 
-export default function TabOneScreen() {
+export default function BookingsScreen() {
   return (
     <View style={styles.container}>
-      {/* <StatusBar /> */}
-      <Text style={styles.title}>Home</Text>
+      <Text style={styles.title}>Connections</Text>
     </View>
   );
 }
@@ -13,7 +12,6 @@ export default function TabOneScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F2F6FF",
     alignItems: 'center',
     justifyContent: 'center',
   },
